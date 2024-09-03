@@ -62,13 +62,13 @@ body {
   border-bottom: 2px solid var(--text-description-color);
 }
 
-.livros {
+.books {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.livro {
+.book {
   width: 302px;
   display: flex;
   flex-direction: column;
@@ -77,11 +77,11 @@ body {
   margin-bottom: 1rem;
 }
 
-.indisponivel {
+.unavailable {
   opacity: 0.3;
 }
 
-.livro__titulo {
+.book__title {
   color: var(--text-title-color);
   font-weight: 700;
   font-size: 18px;
@@ -89,14 +89,14 @@ body {
   line-height: 24px;
 }
 
-.livro__descricao {
+.book__description {
   text-align: center;
   font-size: 18px;
   color: var(--text-author-color);
   margin: 1rem 0;
 }
 
-.livro__preco {
+.book__price {
   text-align: center;
   font-size: 24px;
   font-weight: 700;
@@ -122,7 +122,7 @@ body {
   margin-right: 1rem;
 }
 
-.livros__disponiveis {
+.available_books {
   width: 100%;
   height: 80px;
   background-color: var(--text-description-color);
@@ -134,14 +134,14 @@ body {
   align-items: center;
 }
 
-.livros__disponiveis p {
+.available_books p {
   color: #fff;
   font-weight: 500;
   line-height: 24px;
   font-size: 2.5em;
 } 
 
-.rodape {
+.footer {
   width: 100%;
   height: 104px;
   background: linear-gradient(96.48deg, #002f52 36.3%, #326589 99.56%);
@@ -153,7 +153,7 @@ body {
   align-items: center;
 }
 
-.rodape p {
+.footer p {
   color: #fff;
   font-weight: 500;
   line-height: 24px;

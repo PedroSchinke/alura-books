@@ -1,7 +1,4 @@
-import { applyDiscount } from './map.js';
-import { showBooks } from './forEach.js';
-
-export let books = [];
+let books = [];
 
 const APIendpoint = 'https://guilhermeonrails.github.io/casadocodigo/livros.json';
 

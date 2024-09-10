@@ -11,6 +11,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <header class="header">
   <h1><img src="imagens/Logo-1.png" /></h1>
 </header>
@@ -20,33 +21,28 @@
 
   <nav class="wrap">
     <ul class="nav">
-      <li><button class="btn btn-front" href="#" id="frontEndFilterButton" value="front-end">LIVROS DE
-          FRONT-END</button>
-      </li>
-      <li><button class="btn btn-back" href="#" id="backEndFilterButton" value="back-end">LIVROS DE BACK-END</button>
-      </li>
-      <li><button class="btn btn-data" href="#" id="dataFilterButton" value="dados">LIVROS DE DADOS</button></li>
-      <li><button class="btn btn-available" href="#" id="availableFilterButton">LIVROS DISPONÍVEIS</button></li>
-      <li><button class="btn btn-order" href="#" id="orderByPriceButton">ORDENAR POR PREÇO</button></li>
+      <li><button class="btn btn-front" href="#" id="frontEndFilterButton" value="front-end">FRONT-END BOOKS</button></li>
+      <li><button class="btn btn-back" href="#" id="backEndFilterButton" value="back-end">BACK-END BOOKS</button></li>
+      <li><button class="btn btn-data" href="#" id="dataFilterButton" value="dados">DATABASE BOOKS</button></li>
+      <li><button class="btn btn-available" href="#" id="availableFilterButton" value="available">AVAILABLE BOOKS</button></li>
+      <li><button class="btn btn-order" href="#" id="orderByPriceButton">ORDER BY PRICE</button></li>
     </ul>
   </nav>
 
   <section class="books wrap" id="books"></section>
 
-  <section id="available_books_total_value">
-    <div class="available_books">
-      <p>Todos os livros disponíveis por R$ <span id="value">299,00</span></p>
-    </div>
-  </section>
+  <section id="available_books_total_value"></section>
 
   <footer class="footer">
-    <p>Alura - Mergulhe em tecnologia</p>
+    <p>Alura - Dive in technology</p>
   </footer>
 
-  <script src="./app/main.js" type="module"></script>
-  <script src="./app/forEach.js" type="module"></script>
-  <script src="./app/map.js" type="module"></script>
-  <script src="./app/filter.js" type="module"></script>
+  <script src="./app/main.js"></script>
+  <script src="./app/forEach.js"></script>
+  <script src="./app/map.js"></script>
+  <script src="./app/filter.js"></script>
+  <script src="./app/sort.js"></script>
+  <script src="./app/reduce.js"></script>
 </body>
 
 </html>

@@ -1,4 +1,4 @@
-export function applyDiscount(books) {
+function applyDiscount(books) {
     const discount = 0.3;
     const booksWithDiscount = books.map(book => {
         return {...book, preco: book.preco - (book.preco * discount)}

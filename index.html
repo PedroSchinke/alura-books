@@ -20,32 +20,33 @@
 
   <nav class="wrap">
     <ul class="nav">
-      <li><button class="btn btn-front" href="#" id="btnFiltrarLivrosFront" value="front-end">LIVROS DE
+      <li><button class="btn btn-front" href="#" id="frontEndFilterButton" value="front-end">LIVROS DE
           FRONT-END</button>
       </li>
-      <li><button class="btn btn-back" href="#" id="btnFiltrarLivrosBack" value="back-end">LIVROS DE BACK-END</button>
+      <li><button class="btn btn-back" href="#" id="backEndFilterButton" value="back-end">LIVROS DE BACK-END</button>
       </li>
-      <li><button class="btn btn-dados" href="#" id="btnFiltrarLivrosDados" value="dados">LIVROS DE DADOS</button></li>
-      <li><button class="btn btn-disponiveis" href="#" id="btnLivrosDisponiveis">LIVROS DISPONÍVEIS</button></li>
-      <li><button class="btn btn-ordenacao" href="#" id="btnOrdenarPorPreco">ORDENAR POR PREÇO</button></li>
+      <li><button class="btn btn-data" href="#" id="dataFilterButton" value="dados">LIVROS DE DADOS</button></li>
+      <li><button class="btn btn-available" href="#" id="availableFilterButton">LIVROS DISPONÍVEIS</button></li>
+      <li><button class="btn btn-order" href="#" id="orderByPriceButton">ORDENAR POR PREÇO</button></li>
     </ul>
   </nav>
 
   <section class="books wrap" id="books"></section>
 
-  <section id="valor_total_livros_disponiveis">
-    <div class="livros__disponiveis">
-      <p>Todos os livros disponíveis por R$ <span id="valor">299,00</span></p>
+  <section id="available_books_total_value">
+    <div class="available_books">
+      <p>Todos os livros disponíveis por R$ <span id="value">299,00</span></p>
     </div>
   </section>
 
-  <footer class="rodape">
+  <footer class="footer">
     <p>Alura - Mergulhe em tecnologia</p>
   </footer>
 
   <script src="./app/main.js" type="module"></script>
   <script src="./app/forEach.js" type="module"></script>
   <script src="./app/map.js" type="module"></script>
+  <script src="./app/filter.js" type="module"></script>
 </body>
 
 </html>

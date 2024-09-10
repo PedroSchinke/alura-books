@@ -1,6 +1,7 @@
 const booksContainer = document.getElementById('books');
 
-function showBooks(booksList) {
+export function showBooks(booksList) {
+    booksContainer.innerHTML = '';
     booksList.forEach(book => {
         booksContainer.innerHTML += `
             <div class="book">
@@ -9,7 +10,7 @@ function showBooks(booksList) {
                     ${book.titulo}
                 </h2>
                 <p class="book__description">${book.autor}</p>
-                <p class="book__price" id="price">R$${book.preco}</p>
+                <p class="book__price" id="price">R$${book.preco.toFixed(2)}</p>
                 <div class="tags">
                     <span class="tag">${book.categoria}</span>
                 </div>
